@@ -1,0 +1,13 @@
+
+
+{ "hosting": [ 
+              { "target": "nf-training",
+                "public": "dist/nf-training",
+                  "ignore": [ "**/.*" ], 
+                  "rewrites": [ 
+                    { "source": "**",
+                      "destination": "/index.html" } 
+                      ]
+              }    
+        ]
+}

@@ -1,0 +1,4 @@
+{ "targets": 
+{ "nf-training": 
+{ "hosting": 
+{ "nf-training": [ "nf-training" ] } } } }
