@@ -1,0 +1,179 @@
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.title{     
+    font-family: 'Full pack 2025';
+
+}
+
+.bg{
+    background-image:
+    linear-gradient(to bottom, rgba(12, 29, 37, 0.205), rgb(12, 29, 37)),
+    url("../../assets/tt3.jpg");
+}
+
+.bg3{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image:
+    linear-gradient(to bottom, rgba(15, 28, 34, 0), rgba(104, 151, 174, 0.535)),
+    url("../../assets/bg3.jpg");
+   
+    height: 110vh;
+}
+
+.bg3m{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image:
+    linear-gradient(to bottom, rgba(15, 28, 34, 0), rgba(104, 151, 174, 0.535)),
+    url("../../assets/bg3mob.jpg");
+   
+    height: 110vh;
+}
+
+.m-xl{ 
+    margin: 2%; 
+}
+
+.triangle{
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    z-index: -1;
+    right: 0;
+}
+
+
+.team{
+    width: 99%;
+    height: 99%;
+    margin-right: 4%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    transition: all 2s ease-in-out;
+}
+
+.block-1{
+    position: relative; 
+    top: -140px;
+    left: 100px;
+    padding: 10%;
+    background-color: #05cf9f;
+    border-radius: 30% 90% 53% 37% / 21% 94% 56%;
+    z-index: -1;
+    transition: 1s;
+    /*animation:  animate 10s 1s infinite;*/
+    
+}
+
+
+
+@keyframes animate {
+    
+    0%{
+        transform: rotate(0deg)
+    }
+    
+    10%{ 
+        transform: rotate(161deg)
+
+    }
+
+    44%{ 
+        transform: rotate(190deg)
+
+    }
+    70%{ 
+        transform: rotate(221deg)
+
+    }
+    80%{ 
+        transform: rotate(111deg)
+
+    }
+
+    100%{
+        transform: rotate(360deg)
+    }
+    
+}
+
+.circle-mobile{
+    width: 99%;
+    height: 99%;
+}
+
+
+
+
+.logo-sm{
+    width: 80px;
+    height: 70px;
+    opacity: 0.20;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.logo-sm:hover{
+    transition: 0.5s;
+    transform: scale(1.24);
+
+}
+
+.space-word{
+    letter-spacing: 7px;
+    font-weight: bold; 
+}
+
+.bg2{
+    background-color: #05cfa019;
+}
+
+.bg3{
+    background-color: #273460;
+}
+
+.img-service{
+    width: 180px;
+    height: 150px;
+}
+
+.box-black{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.box-black:hover{
+    background-color: #273460;
+}
+.box-black:hover h2,.box-black:hover p{
+    color: white;
+}
+
+
+
+@media (max-width: 580px) { 
+    
+    .logo-sm{
+        width: 50px;
+        height: 40px;
+        opacity: 0.20;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .block-1{
+        float: static; 
+        top: -564px;
+        left: -154px;
+        padding: 38%;
+        background-color: #05cf9f;
+        border-radius: 30% 90% 53% 27% / 21% 94% 56%;
+        z-index: -1;
+    }
+
+}

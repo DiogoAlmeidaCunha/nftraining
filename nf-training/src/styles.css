@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-body { margin: 0;  }
+body { margin: 0; background-color: rgb(12, 29, 37); }
 
 .fade-in {
 	opacity: 1;
@@ -20,8 +20,11 @@ body { margin: 0;  }
 }
 
 a{
-    color: rgb(68, 68, 68);
+    color: rgb(253, 246, 246);
+    text-decoration: none;
 }
+
+
 
 h1,h2{     
     opacity: 0.94;
@@ -52,7 +55,7 @@ button{
 }
 
 .btn1{
-    background-color: aqua;
+    background-color: #63f4f3;
     color: rgb(58, 57, 57);
     border-style: none;
     padding: 2.7%;
@@ -64,8 +67,10 @@ button{
 
 .btn2{
     background-color:#ffffff00 ;
-    border-color: #68cfca;
-    padding: 2.7%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #63f4f3;    
+    padding: 2.3%;
     padding-left: 5%;
     padding-right: 5%;
     border-radius: 30px 1px 30px 1px;
@@ -73,6 +78,7 @@ button{
     transition: 0.6s;
 
 }
+
 
 button:hover{
     border-radius: 1px 30px 1px 30px;

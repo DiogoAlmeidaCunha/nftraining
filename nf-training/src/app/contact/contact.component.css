@@ -1,0 +1,56 @@
+
+h1{
+    color: white;
+    letter-spacing: 0.05cm;
+}
+
+.bg1{
+    background-image:     linear-gradient(to bottom, rgba(12, 29, 37, 0.158), rgba(12, 29, 37, 0.911)),
+    url("../../assets/cont2.jpg");
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-1{
+    background-color: #63f4f4cb;
+}
+
+.pr-xl{
+    padding: 6%;
+    padding-right: 10%;
+}
+
+
+.social-media{
+    margin: 20px;
+    opacity:0.88;
+     width: 70px;
+     height: 42px;
+     transition: 0.5s;
+     cursor: pointer;
+}
+
+.social-media:hover{
+    width: 77px;
+     height: 50px;
+}
+
+.h5-follow{
+    letter-spacing: 0.05cm;
+}
+
+@media (max-width: 760px){
+    .social-media{
+        margin: 10px;
+        opacity:0.88;
+         width: 49px;
+         height: 25px;
+         transition: 0.5s;
+         cursor: pointer;
+    }
+}

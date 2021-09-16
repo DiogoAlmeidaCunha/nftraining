@@ -1,0 +1,70 @@
+
+h3,h4,h5{
+    color:#73e5ff;
+    font-weight: bold;
+}
+
+a,li{
+    text-decoration: none;
+    color: white;
+    margin-top:5%;
+    margin-bottom: 5%;
+    transition: 0.14s;
+    font-size: 100%;
+}
+
+p{
+    color: white;
+}
+
+.large:hover {
+    color:#73e5ff;
+    transition: 0.14s;
+    cursor: pointer;
+}
+
+li:hover {
+    color:#73e5ff;
+    transition: 0.14s;
+    cursor: pointer;
+}
+
+.footer-copyright{
+    margin-top: 4%;
+}
+
+button{
+    margin-top:2%;
+    padding: 2.4%;
+    margin-bottom: 2%;
+    background-color: #73e5ff;
+    color: white;
+    border-style: none;
+    border-width: thin;
+    opacity:0.78;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;;
+    transition: 1s;
+}
+
+.p-l{
+    padding-left:1%;
+}
+
+p,h1,h3,li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+button:hover{
+    border-color:#73e5ff;
+    background-color: #73e5ff;;
+    opacity: 0.60;
+    color: white;
+}
+
+.witech{
+    font-size: 13px; color: white; text-decoration: none; opacity: 0.8;
+}
+
+.witech, a:hover{
+    color: rgb(83, 180, 245);
+}
