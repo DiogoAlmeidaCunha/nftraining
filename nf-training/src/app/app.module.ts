@@ -11,6 +11,8 @@ import { NavComponent } from './components/nav/nav.component';
 
 import AOS from 'aos';
 import { ContactComponent } from './contact/contact.component';
+import { StartNowComponent } from './start-now/start-now.component';
+
 AOS.init();
 
 @NgModule({
@@ -20,7 +22,8 @@ AOS.init();
     FooterComponent,
     LandingPageComponent,
     NavComponent,
-    ContactComponent
+    ContactComponent,
+    StartNowComponent
   ],
   imports: [
     BrowserModule,

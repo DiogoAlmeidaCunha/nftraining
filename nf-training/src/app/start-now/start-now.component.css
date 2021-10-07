@@ -1,0 +1,48 @@
+
+
+.title{     
+    font-family: 'Full pack 2025';
+
+}
+
+p{
+    color: white;
+}
+
+.bg1{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../../assets/start6.jpg");
+   
+    height: 100vh;
+}
+
+.bg2{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../../assets/bg1.jpg");
+   
+    height: 110vh;
+}
+
+.bg3{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../../assets/bg12.jpg");
+   
+    height: 110vh;
+}
+
+@media (max-width: 980px) { 
+    .bg1{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url("../../assets/mobs1.jpg");
+       
+        height: 134vh;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+}
