@@ -1,45 +1,43 @@
 
 
 .title{     
-    font-family: 'Full pack 2025';
+    font-family: 'Full pack 2025','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:  bolder;
 
 }
 
 p{
-    color: white;
+    color: white; /* 'Full pack 2025', */
 }
 
-.bg1{
+#bg1{
+    width: 100%;
+    height: 118vh;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-image: url("../../assets/start82.jpg");
+    background-size: cover;
+    background-image: url("../../assets/start9.jpg");
    
-    height: 100vh;
 }
 
-.bg2{
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-image: url("../../assets/bg1.jpg");
-   
-    height: 110vh;
-}
 
-.bg3{
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-image: url("../../assets/bg12.jpg");
-   
-    height: 110vh;
+
+.mt-l{
+    margin-top: 30%;
 }
 
 @media (max-width: 980px) { 
-    .bg1{
+    #bg1{
+        width: 100%;
+        height: auto;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;
         background-image: url("../../assets/startm2.jpg");
        
-        height: 134vh;
+        
+    }
+
+    .margin-iphone{
+        margin-top:40px;
     }
 
     h4{

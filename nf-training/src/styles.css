@@ -31,8 +31,10 @@ h1,h2{
     font-weight: normal;
     font-style: normal;
     letter-spacing: 0.3cm;
-    font-size: 2.3rem; 
-
+    font-size: 2.22rem; 
+    background: -webkit-linear-gradient(#eee, #63f4f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h3,h4,h5{

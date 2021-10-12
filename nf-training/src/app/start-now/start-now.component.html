@@ -1,6 +1,6 @@
 
-<!-- SECTION 1  WEB VERSION -->
-<div class="container-fluid bg1 justify-content-center " >
+<!-- SECTION 1   -->
+<div id="bg1" class="container-fluid bg1 justify-content-center " >
 
     <app-nav class="mb-1" ></app-nav>
 
@@ -11,37 +11,42 @@
             <div class="col">
                     
                 <h1 class="  title">
-                    Personal training
+                    PERSONAL
+                </h1>
+
+                <h1 class="  title">
+                    TRAINING
                 </h1>
 
             </div>
 
-            <div class="col mt-5"> 
+            <div class="col mt-5" style="opacity: 0.81;"> 
                 <h4>
-                    Acompanhamento presencial e personalizado. O plano perfeito para o corpo perfeito.
+                    Acompanhamento presencial. <br> O plano perfeito para <br> o corpo perfeito.
                 </h4>
+                
             </div>
             
             
-            <button class="btn1 mt-5" > <a> Ver pacotes</a></button>
+            <button class="btn1 mt-5" (mouseover)="showBox('1')" (mouseout)="closeBox('1')" > <a> Ver pacotes</a></button>
             
         </div>
 
-        <div class="col-12 col-lg-5 text-right p-4 mt-5 mt-md-0"> 
+        <div class="col-12 col-lg-5 text-left text-md-right p-4 mt-l mt-md-0  " > 
 
-            <div class="col">
+            <div class="col margin-iphone " >
                 
                 <h1 class="  title">
-                    Online
+                    ONLINE
                 </h1>
 
                 <h1 class="  title">
-                    training
+                    TRAINING
                 </h1>
 
             </div>
 
-            <div class="col mt-5"> 
+            <div class="col mt-5" style="opacity: 0.81;"> 
                 <h4>
                     Planos de treino e  
                 </h4>
@@ -51,14 +56,13 @@
             </div>
             
             
-            <button class="btn1 mt-5" > <a> Ver pacotes</a></button>
+            <button class="btn1 mt-5 mb-5" (mouseover)="showBox('2')" (mouseout)="closeBox('2')" > <a> Ver pacotes</a></button>
 
         </div>
 
     </div>
   
 <div> 
-
 
 
     
