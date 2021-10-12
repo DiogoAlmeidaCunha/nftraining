@@ -12,6 +12,8 @@ import { NavComponent } from './components/nav/nav.component';
 import AOS from 'aos';
 import { ContactComponent } from './contact/contact.component';
 import { StartNowComponent } from './start-now/start-now.component';
+import { OnlinePageComponent } from './online-page/online-page.component';
+import { PersonalPageComponent } from './personal-page/personal-page.component';
 
 AOS.init();
 
@@ -23,7 +25,9 @@ AOS.init();
     LandingPageComponent,
     NavComponent,
     ContactComponent,
-    StartNowComponent
+    StartNowComponent,
+    OnlinePageComponent,
+    PersonalPageComponent
   ],
   imports: [
     BrowserModule,
