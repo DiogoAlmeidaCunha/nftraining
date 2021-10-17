@@ -16,12 +16,19 @@ a{
 }
 
 h3{
-    color: #255e5e;
+    color: #193446;
     font-size: 1.44rem; 
 }
 
-h1{
-    color: #bc3ad6;
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(12, 29, 37);
+    font-size: 1.90rem; 
+}
+
+.price-color{
+    font-size: 2.5vmax; 
+    color: rgb(22, 37, 46);
 }
 
 .bg1{
@@ -30,10 +37,36 @@ h1{
     width: 100%;
     height: 98vh;
     background-image:
-    linear-gradient(to bottom, rgb(15, 28, 34), rgba(31, 74, 90, 0.405) , rgba(255, 255, 255, 0.665) ), url("../../assets/coach0.JPG");
+    linear-gradient(to bottom, rgba(12, 29, 37, 0.974), rgba(12, 29, 37, 0.72) , rgb(255, 255, 255) ), url("../../assets/coach0.JPG");
     
 }
 
+.part1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/part1.png");
+    opacity: 1;
+}
+
+.part2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/part2.png");
+    opacity: 1;
+}
+
+.part3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/part3.png");
+    opacity: 1;
+}
 
 .card-list{
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -62,7 +95,12 @@ h1{
     .bg1{
 
         background-image:
-        linear-gradient(to bottom, rgb(15, 28, 34), rgba(90, 211, 255, 0.405) , rgba(255, 255, 255, 0.549) ), url("../../assets/coach02.JPG");
+        linear-gradient(to bottom,  rgb(12, 29, 37), rgba(12, 29, 37, 0.405) , rgb(255, 255, 255) ), url("../../assets/coach02.JPG");
         
+    }
+
+    .price-color{
+        font-size: 1cm; 
+        color: rgb(22, 46, 28);
     }
 }
