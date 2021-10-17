@@ -1,8 +1,28 @@
+
+html{
+    background-color: white;
+}
+
+a{
+    color: rgb(12, 29, 37);
+}
+
 .title{     
     font-family: 'Full pack 2025','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    background: -webkit-linear-gradient(rgb(238, 238, 238), #63f4f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
+h3{
+    color: #255e5e;
+    font-size: 1.44rem; 
+}
+
+h1{
+    color: #bc3ad6;
+}
 
 .bg1{
     background-repeat: no-repeat;
@@ -10,13 +30,31 @@
     width: 100%;
     height: 98vh;
     background-image:
-    linear-gradient(to bottom, rgb(15, 28, 34), rgba(90, 211, 255, 0.405) , rgba(255, 255, 255, 0.549) ), url("../../assets/coach0.JPG");
+    linear-gradient(to bottom, rgb(15, 28, 34), rgba(31, 74, 90, 0.405) , rgba(255, 255, 255, 0.665) ), url("../../assets/coach0.JPG");
     
 }
 
-.bg-card{
-    background-color: white;
-    box-shadow: 1px 17px 12px rgba(18, 39, 61, 0.165) ;
+
+.card-list{
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: rgb(21, 21, 21);
+    box-shadow: 0px 4px 20px 0px rgba(199, 181, 248, 0.365);
+    border-radius: 4px;
+    padding: 4%;
+    letter-spacing: 0.06cm;
+    background-color: rgb(255, 255, 255);
+    border-top-style: solid;
+    border-top-color: #1a323a
+}
+
+.card-list:hover{
+    transition: 1s;
+    padding: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+    cursor: default;
+    box-shadow: 0px 4px 20px 0px #63f4f3
 }
 
 @media (max-width: 770px) { 
