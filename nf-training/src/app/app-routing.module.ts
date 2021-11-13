@@ -8,8 +8,7 @@ import { OnlinePageComponent } from './online-page/online-page.component'
 import { PersonalPageComponent } from './personal-page/personal-page.component'
 
 const routes: Routes = [
-  { path: '' , component: ComingSoonComponent},
-  { path: 'page' , component: LandingPageComponent},
+  { path: '' , component: LandingPageComponent},
   { path: 'contact' , component: ContactComponent},
   { path: 'pacotes' , component: StartNowComponent},
   { path: 'onlineCoach', component: OnlinePageComponent},

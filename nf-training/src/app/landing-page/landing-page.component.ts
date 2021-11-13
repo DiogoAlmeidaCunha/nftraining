@@ -63,4 +63,7 @@ export class LandingPageComponent implements OnInit {
     }
   }
 
+  instagram(){
+    window.open("https://www.instagram.com/witech_");
+  }
 }

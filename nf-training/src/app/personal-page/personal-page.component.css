@@ -1,6 +1,7 @@
 
 html{
     background-color: white;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -41,6 +42,16 @@ h5{
     
 }
 
+.bg-all{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(23, 45, 68, 0.289) , rgba(255, 255, 255, 0.111) ), url("../../assets/bgall.jpg");
+    
+}
+
 .part1{
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,6 +79,10 @@ h5{
     opacity: 1;
 }
 
+.btn2{
+    background-color: white;
+}
+
 .card-list{
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: lighter;
@@ -78,7 +93,9 @@ h5{
     letter-spacing: 0.06cm;
     background-color: rgb(255, 255, 255);
     border-top-style: solid;
-    border-top-color: #1a323a
+    border-top-color: #1a323a;
+    transition: 1s;
+
 }
 
 .card-list:hover{
@@ -87,7 +104,23 @@ h5{
     padding-left: 70px;
     padding-right: 70px;
     cursor: default;
-    box-shadow: 0px 4px 20px 0px #63f4f3
+    box-shadow: 0px 4px 20px 0px #062035
+}
+
+.feedback{
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: rgb(52, 203, 248);
+    box-shadow: 0px 4px 20px 0px rgba(83, 209, 255, 0.365);
+    border-radius: 4px;
+    padding: 1%;
+    padding-left: 3%;
+    letter-spacing: 0.06cm;
+    background-image: url("../../assets/aspa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 770px) { 
@@ -99,6 +132,15 @@ h5{
         
     }
 
+    .bg-all{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 10cm;
+        background-image:
+        linear-gradient(to bottom, rgba(12, 29, 37, 0.768), rgba(12, 29, 37, 0.501) , rgba(255, 255, 255, 0.111) ), url("../../assets/bgall.jpg");
+        
+    }
     .price-color{
         font-size: 1cm; 
         color: rgb(22, 46, 28);

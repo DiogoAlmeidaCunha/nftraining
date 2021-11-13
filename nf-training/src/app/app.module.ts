@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { MatSelectModule } from '@angular/material/select';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -14,6 +14,8 @@ import { ContactComponent } from './contact/contact.component';
 import { StartNowComponent } from './start-now/start-now.component';
 import { OnlinePageComponent } from './online-page/online-page.component';
 import { PersonalPageComponent } from './personal-page/personal-page.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+
 
 AOS.init();
 
@@ -28,11 +30,15 @@ AOS.init();
     StartNowComponent,
     OnlinePageComponent,
     PersonalPageComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    NoopAnimationsModule,
+    MatSelectModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
