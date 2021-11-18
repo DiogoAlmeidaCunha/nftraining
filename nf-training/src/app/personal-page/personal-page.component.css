@@ -16,6 +16,13 @@ a{
     -webkit-text-fill-color: transparent;
 }
 
+.title1{
+    color: #63f4f3;
+    font-size: 2.3rem;
+    font-family: 'Full pack 2025','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 11.2px;
+}
+
 h3{
     color: #193446;
     font-size: 1.44rem; 
