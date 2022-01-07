@@ -21,8 +21,26 @@ export class PersonalPageComponent implements OnInit {
   10: 27.5 16.50
   15: 25  15
   20: 23.5 14,25
-  25 21 13
+  25: 21 13
 
+
+  
+  5: 29 17.50
+  10: 25.5 16.50
+  15: 22.5  15     
+  20: 21 14,25
+  25: 20 13
+
+  --------------
+2 meses 4 meses 6 meses
+24/7 whatsapp
+
+nutricao 
+1 2 4
+avaliacao
+2 3 5
+
+80 140 200
 
   */
 

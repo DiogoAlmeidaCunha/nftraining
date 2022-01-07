@@ -15,6 +15,7 @@ import { StartNowComponent } from './start-now/start-now.component';
 import { OnlinePageComponent } from './online-page/online-page.component';
 import { PersonalPageComponent } from './personal-page/personal-page.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { DoneComponent } from './done/done.component';
 
 
 AOS.init();
@@ -29,7 +30,8 @@ AOS.init();
     ContactComponent,
     StartNowComponent,
     OnlinePageComponent,
-    PersonalPageComponent
+    PersonalPageComponent,
+    DoneComponent
     
   ],
   imports: [
