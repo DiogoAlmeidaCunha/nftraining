@@ -54,11 +54,11 @@ avaliacao
 
   priceRefresh(){
     if(this.selectedValue_3== 1){
-      if(this.selectedValue_1 == 5 ) this.price = this.selectedValue_1 * 30 *this.selectedValue_2;
-      if(this.selectedValue_1 == 10 ) this.price = this.selectedValue_1 * 27.5*this.selectedValue_2;
-      if(this.selectedValue_1 == 15 ) this.price = this.selectedValue_1 * 25*this.selectedValue_2;
-      if(this.selectedValue_1 == 20 ) this.price = this.selectedValue_1 * 23.5*this.selectedValue_2;
-      if(this.selectedValue_1 == 25 ) this.price = this.selectedValue_1 * 21*this.selectedValue_2;
+      if(this.selectedValue_1 == 5 ) this.price = this.selectedValue_1 * 29 *this.selectedValue_2;
+      if(this.selectedValue_1 == 10 ) this.price = this.selectedValue_1 * 25.5*this.selectedValue_2;
+      if(this.selectedValue_1 == 15 ) this.price = this.selectedValue_1 * 22.5*this.selectedValue_2;
+      if(this.selectedValue_1 == 20 ) this.price = this.selectedValue_1 * 21*this.selectedValue_2;
+      if(this.selectedValue_1 == 25 ) this.price = this.selectedValue_1 * 20*this.selectedValue_2;
     }
     if(this.selectedValue_3== 2){
       if(this.selectedValue_1 == 5 ) this.price = this.selectedValue_1 * 17.5;
